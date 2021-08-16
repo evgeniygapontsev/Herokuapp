@@ -1,18 +1,15 @@
 package com.herokuapp.theinternet.test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.AfterClass;
-import org.junit.Assert;
-import org.junit.BeforeClass;
-import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
-/*import org.testng.annotations.AfterClass;
+import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;*/
+import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
@@ -210,11 +207,11 @@ public class ForgotPasswordTest {
 
     }
 
-/*    @AfterClass
+    @AfterClass
     public void teardown() {
         if (driver != null) {
             driver.quit();
 
         }
-    }*/
+    }
 }
